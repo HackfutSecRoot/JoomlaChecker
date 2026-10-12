@@ -1,6 +1,6 @@
 <div align="center">
 
-<img src="./assets/banner.png" alt="JoomlaChecker Banner" width="100%"/>
+<img src="https://i.postimg.cc/vZ968zNW/Screenshot-2026-10-10-3.png" alt="JoomlaChecker Banner" width="100%"/>
 
 # 🎯 JoomlaChecker — ULTIMATE EDITION
 
@@ -14,7 +14,7 @@
 
 <br/>
 
-<img src="https://img.shields.io/badge/Joomla-1.0%20→%205.x-orange?style=flat-square"/>
+<img src="https://img.shields.io/badge/Joomla-1.0%20to%205.x-orange?style=flat-square"/>
 <img src="https://img.shields.io/badge/Multi--Payload-7%20Strategies-purple?style=flat-square"/>
 <img src="https://img.shields.io/badge/Multi--Threaded-10%20Workers-blue?style=flat-square"/>
 <img src="https://img.shields.io/badge/Version--Aware-✔-brightgreen?style=flat-square"/>
@@ -30,7 +30,7 @@
 ## 📸 Terminal Preview
 
 <div align="center">
-<img src="./assets/terminal.png" alt="Terminal Launch" width="90%"/>
+<img src="https://i.postimg.cc/vZ968zNW/Screenshot-2026-10-10-3.png" alt="Terminal Launch" width="90%"/>
 <br/>
 <i>🚀 Tool launch — Colorful interface & ASCII banner</i>
 </div>
@@ -38,7 +38,7 @@
 <br/>
 
 <div align="center">
-<img src="./assets/results.png" alt="Results" width="90%"/>
+<img src="https://i.postimg.cc/63H8b1yZ/Screenshot-2026-10-10-4.png" alt="Results" width="90%"/>
 <br/>
 <i>✅ Live results — Version detection + payload used</i>
 </div>
@@ -46,7 +46,7 @@
 <br/>
 
 <div align="center">
-<img src="./assets/panel.png" alt="Joomla Panel" width="90%"/>
+<img src="https://i.postimg.cc/WzChTFmW/Screenshot-2026-10-10-5.png" alt="Joomla Panel" width="90%"/>
 <br/>
 <i>🎯 Joomla panel found by the tool — Manually verified</i>
 </div>
@@ -248,23 +248,6 @@ FAILED_FILE  = "failed_logins.txt"
 | 🎨 Admin markers (per version) | **6-11** |
 
 </div>
-
----
-
-## 📁 Repository Structure
-
-```
-JoomlaChecker/
-├── assets/
-│   ├── banner.png
-│   ├── terminal.png
-│   ├── results.png
-│   └── panel.png
-├── joomla_checker.py
-├── requirements.txt
-├── README.md
-└── LICENSE
-```
 
 ---
 

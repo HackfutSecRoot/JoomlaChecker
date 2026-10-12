@@ -1,6 +1,6 @@
 <div align="center">
 
-<img src="https://i.postimg.cc/vZ968zNW/Screenshot-2026-10-10-3.png" alt="JoomlaChecker Banner" width="100%"/>
+<img src="./assets/banner.png" alt="JoomlaChecker Banner" width="100%"/>
 
 # 🎯 JoomlaChecker — ULTIMATE EDITION
 
@@ -30,7 +30,7 @@
 ## 📸 Terminal Preview
 
 <div align="center">
-<img src="https://i.postimg.cc/vZ968zNW/Screenshot-2026-10-10-3.png" alt="Terminal Launch" width="90%"/>
+<img src="./assets/terminal.png" alt="Terminal Launch" width="90%"/>
 <br/>
 <i>🚀 Tool launch — Colorful interface & ASCII banner</i>
 </div>
@@ -38,7 +38,7 @@
 <br/>
 
 <div align="center">
-<img src="https://i.postimg.cc/63H8b1yZ/Screenshot-2026-10-10-4.png" alt="Results" width="90%"/>
+<img src="./assets/results.png" alt="Results" width="90%"/>
 <br/>
 <i>✅ Live results — Version detection + payload used</i>
 </div>
@@ -46,7 +46,7 @@
 <br/>
 
 <div align="center">
-<img src="https://i.postimg.cc/WzChTFmW/Screenshot-2026-10-10-5.png" alt="Joomla Panel" width="90%"/>
+<img src="./assets/panel.png" alt="Joomla Panel" width="90%"/>
 <br/>
 <i>🎯 Joomla panel found by the tool — Manually verified</i>
 </div>
@@ -104,24 +104,24 @@
 
 ```
 ┌─────────────────────────────────────────────────────────┐
-│  STEP 1 — Version Detection                            │
-│    • HTML admin  •  joomla.xml manifest  •  legacy     │
+│  STEP 1 — Version Detection                             │
+│    • HTML admin  •  joomla.xml manifest  •  legacy      │
 ├─────────────────────────────────────────────────────────┤
-│  STEP 2 — Locate Login Form                            │
-│    • index2.php (1.0/1.5)  •  index.php (3.x+)         │
+│  STEP 2 — Locate Login Form                             │
+│    • index2.php (1.0/1.5)  •  index.php (3.x+)          │
 ├─────────────────────────────────────────────────────────┤
-│  STEP 3 — CSRF Token Extraction                        │
-│    • Hidden input 32+ chars                            │
+│  STEP 3 — CSRF Token Extraction                         │
+│    • Hidden input 32+ chars                             │
 ├─────────────────────────────────────────────────────────┤
-│  STEP 4 — Generate 7 Payloads                          │
-│    1.5-3.x | 4.x-5.x | 1.5 legacy | 1.0 | hybrid ...   │
+│  STEP 4 — Generate 7 Payloads                           │
+│    1.5-3.x | 4.x-5.x | 1.5 legacy | 1.0 | hybrid ...    │
 ├─────────────────────────────────────────────────────────┤
-│  STEP 5 — Test + Verification                          │
-│    • Quick check login response                        │
-│    • Full verify on 5-6 protected paths                │
+│  STEP 5 — Test + Verification                           │
+│    • Quick check login response                         │
+│    • Full verify on 5-6 protected paths                 │
 ├─────────────────────────────────────────────────────────┤
-│  STEP 6 — Verdict                                      │
-│    ✅ REAL  |  ❌ FAIL  (with detailed reason)          │
+│  STEP 6 — Verdict                                       │
+│    ✅ REAL  |  ❌ FAIL  (with detailed reason)           │
 └─────────────────────────────────────────────────────────┘
 ```
 
@@ -194,7 +194,7 @@ Give me your file: targets.txt
 ## 🧩 Joomla Version Compatibility
 
 | Version | Login Path | Cookie | Payload |
-|---------|-----------|--------|---------|
+|---------|------------|--------|---------|
 | **1.0** | `index2.php` | `sessioncookie` / `mos_*` | `user` + `pass` |
 | **1.5** | `index2.php` | `jos_session` | `username` + `passwd` |
 | **1.6 / 1.7** | `index.php` | `jos_session` | `username` + `passwd` |
@@ -228,7 +228,7 @@ Legacy (1.0 / 1.5):
 Open `joomla_checker.py` and modify:
 
 ```python
-MAX_THREADS = 10                    # Number of threads
+MAX_THREADS  = 10                    # Number of threads
 SUCCESS_FILE = "successful_logins.txt"
 FAILED_FILE  = "failed_logins.txt"
 ```
@@ -251,6 +251,23 @@ FAILED_FILE  = "failed_logins.txt"
 
 ---
 
+## 📁 Repository Structure
+
+```
+JoomlaChecker/
+├── assets/
+│   ├── banner.png
+│   ├── terminal.png
+│   ├── results.png
+│   └── panel.png
+├── joomla_checker.py
+├── requirements.txt
+├── README.md
+└── LICENSE
+```
+
+---
+
 ## 📞 Contact & Socials
 
 <div align="center">
@@ -268,7 +285,7 @@ FAILED_FILE  = "failed_logins.txt"
 
 - 📢 **Channel 1** — https://t.me/+gsrpvshwGUc5MzI0
 - 📢 **Channel 2** — https://t.me/LinxProdXs404
-- 🤖 **Bot/ULP** — [@ulp_CLOUD1](https://t.me/ulp_CLOUD1)
+- 🤖 **Bot / ULP** — [@ulp_CLOUD1](https://t.me/ulp_CLOUD1)
 - 📝 **Post 1** — https://t.me/LinxProdXs404/249
 - 📝 **Post 2** — https://t.me/LinxProdXs404/541
 - 📋 **Pastebin** — https://pastebin.com/u/hackfut
@@ -278,7 +295,7 @@ FAILED_FILE  = "failed_logins.txt"
 
 ---
 
-## ⚠️ DISCLAIMER
+## ⚠️ Disclaimer
 
 <div align="center">
 

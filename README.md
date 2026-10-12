@@ -6,7 +6,7 @@
 
 <!-- MAIN BANNER -->
 <p align="center">
-  <img src="https://raw.githubusercontent.com/HackfutSecRoot/JoomlaChecker/main/images/banner.png" alt="Banner" width="800px">
+  <img src="https://i.postimg.cc/vZ968zNW/Screenshot-2026-10-10-3.png" alt="Banner" width="800px">
 </p>
 
 <!-- BADGES -->
